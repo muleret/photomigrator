@@ -17,6 +17,7 @@ namespace PhotoMigrator
             if (args.Length != 1)
             {
                 Console.WriteLine("Usage: PhotoMigrator.exe <folder>");
+                Console.ReadKey();
                 return;
             }
 
